@@ -57,7 +57,7 @@ class BaseAgent:
 class WelcomeAgent(BaseAgent):
     def __init__(self):
         super().__init__(
-            name = "Welcome Agent"
+            name = "Welcome Agent",
             description="a weclome agent will introduce everything in the professional portfolio"
         )
     def greet(self, visitor_type=None):
